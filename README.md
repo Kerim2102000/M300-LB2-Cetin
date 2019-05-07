@@ -7,7 +7,8 @@
   - [03 - Wissenstand](#03---wissenstand)
   - [04 - Sicherheitsaspekte](#04---Sicherheitsaspekte)
   - [05 - Testfälle](#05---Testfälle)
-  - [06 - Reflektion](#06---Reflektion)
+  - [06 - Wissenszuwachs](#06---Wissenszuwachs)
+  - [07 - Reflektion](#07---Reflektion)
 
 ## 01 - Umgebung
 
@@ -24,8 +25,10 @@ docker pull = Ladet ein Image aus der Registry
 docker push = Ladet ein Image in die Registry hoch
 docker exec = Führ einen Befehl in einem laufenden Container aus
 
-## 04 - Wissenszuwachs
+## 04 - Sicherheitsaspekte
 
 ## 05 - Testfälle
 
-## 06 - Reflektion
+## 06 - Wissenszuwachs
+
+## 07 - Reflektion
