@@ -22,6 +22,33 @@
 
 ## 03 - Wissenstand
 
+03.1 - Linux
+Linux Grundkenntnisse sind vorhanden jedoch im Betrieb eher gelegentlich zu tun. Zu hause ein paar Test VMs gemacht um in das Thema besser reinzukommen und Erfahrungen zu sammeln.
+
+03.2 - Virtualisierung
+Erfahrung in Virtualisierung mit ESXi, VMware und Virtual Box. Server Umgebungen Virtualisierung im Betrieb geplant und ausgeführt.
+
+03.3 - Vagrant
+Vorkenntnisse von der LB2 vorhanden
+
+03.4 - Versionverwaltung
+Erfahrung im Betrieb mit Versionverwaltung Document Management Systemen und Cloud. Mit GitHub noch wenige Erfahrungen gemacht. Grundsätzlich sollte es mir nicht schwer fallen mit GitHub zu arbeiten.
+
+03.5 - Markdown
+Noch keine Vorkenntnisse vorhanden.
+
+03.6 - Systemsicherheit
+Firewalls im Betrieb konfiguriert Linux Basierend SonicWall, ZyWALL, Cisco. Planung von Sicherheitskonzepten schon in der TBZ realsiert.
+
+03.7 - Containersierung
+Bisher keine Erfahrung mit Containerisierung gesammelt, noch nie damit gearbeitet.
+
+03.8 - Docker
+Keine Vorkenntnisse mit Docker vorhanden, noch nie damit gearbeitet.
+
+03.9 - Micros Service
+Noch keine Vorkenntnisse vorhanden.
+
 ### 03.1 - Docker Befehle
 
 | Befehl       | Beschreibung                                       |
