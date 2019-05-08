@@ -14,6 +14,12 @@
 
 ## 02 - Verwendetet Tools
 
+- Google Cloud Platform
+- Docker Desktop
+- Dockerhub
+- Visual Studio Code
+- Git-Client (inkl. SSH-Key)
+
 ## 03 - Wissenstand
 
 ### 03.1 - Docker Befehle
@@ -75,8 +81,8 @@ Alles Kann auf der Google Cloud Plattform über die Web-Konsole Überwacht werde
 
 ## 08 - Wissenszuwachs
 
-Ich habe viele neue Sachen gelernt 
+Ich habe viele neue Sachen gelernt im Bezug von Kubernetes mit der Google Cloud Plattform und dessen Aufbau und das zusammen spiel eines Docker Images.   
 
 ## 09 - Reflektion
-Die LB02 verlief im Grunden genommen ganzen gut. Das Realisieren von Kubernets Container in der Google Cloud war sehr interessant und lehrreich. Am Anfang musste ich mich mit Docker einwenig zurecht finde genauer gesagt das erstellen von einem Image. Mit dieser LB habe ich Vagrant viel besser kennen gelernt. Zeitlich bin ich gut mit der LB1 durchgekommen und bin mit meiner Arbeit zufrieden.
+Die LB02 verlief im Grunde genommen ganzen gut. Das Realisieren von Kubernets Container in der Google Cloud war sehr interessant und lehrreich. Am Anfang musste ich mich mit Docker ein wenig zurecht finde genauer gesagt das Erstellen eines Images. Doch dies konnte ich mit Hilfe von Foren ausgleichen. Mit dieser LB2 habe ich Docker und Kubernetes viel besser kennen gelernt. Die enorme Vielfalt von Google Cloud hat mich sehr überrascht und fasziniert dort mit Kubernetes Container zu erstellen. Zeitlich bin ich gut mit der LB2 durchgekommen und bin mit meiner Arbeit zufrieden. 
 
