@@ -34,17 +34,19 @@
 Es handelt sich um eine mehrschichtige Webanwendung die mit Hilfe von der Google Cloud erstellt wurde. Die Applikation ist ein Gästebuchrd, in dem Besucher Text in ein Log eingeben und die letzten geloggten Einträge sehen können. Diese Einträge werden in einer Redis Datenbank erfasst diese hat den Vorteil weil sie eine Memory-Datenbank verwedendet sie den Arbeitsspeicher und erlaubt so höhere Zugriffsgeschwindigkeiten.
 
 ### 04.3 - Netzwerkplan
-+---------------------------------------------------------------+
-! Container: Guestbook Frontend PHP - 104.154.89.159:80         !
-! Container: redis-master Database - no public IP               !
-! Container: redis-slave Database - no public IP                !
-+---------------------------------------------------------------+
-! Container-Engine: Docker                                      !
-+---------------------------------------------------------------+
-! Kubernetes Umgebung Google Cloud (GKE) - 3 Node Cluster       !
-+---------------------------------------------------------------+
-! Notebook HP EliteBook - Schulnetz 10.x.x.x                    !
-+---------------------------------------------------------------+
+
+    +---------------------------------------------------------------+
+    ! Container: Guestbook Frontend PHP - 104.154.89.159:80         !
+    ! Container: Redis-Master Database  - no public IP              !
+    ! Container: Redis-Slave Database - no public IP                !
+    +---------------------------------------------------------------+
+    ! Container-Engine: Docker                                      !
+    +---------------------------------------------------------------+
+    ! Kubernetes Umgebung Google Cloud (GKE) - 3 Node Cluster       !
+    +---------------------------------------------------------------+
+    ! Notebook HP Elitebook Windows 10 - Schulnetz 10.x.x.x         !
+    +---------------------------------------------------------------+
+
 
 ### 04.4 - Image
 Für dieses Projekt habe ich die Redis Image vom Dockerhub verwendet. Kubernetes bezieht diese dann automatisch von dort.
