@@ -12,9 +12,13 @@
 
 ## 01 - Umgebung
 
+- Google Cloud Plattform
+- Docker Desktop
+- Visual Studio Code
+
 ## 02 - Verwendetet Tools
 
-- Google Cloud Platform
+- Google Cloud Plattform
 - Docker Desktop
 - Dockerhub
 - Visual Studio Code
