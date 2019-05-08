@@ -33,7 +33,7 @@ Linux Grundkenntnisse sind vorhanden jedoch im Betrieb eher gelegentlich zu tun.
 Erfahrung in Virtualisierung mit ESXi, VMware und Virtual Box. Server Umgebungen Virtualisierung im Betrieb geplant und ausgeführt.
 
 ### 03.3 - Vagrant
-Vorkenntnisse von der LB2 vorhanden
+Vorkenntnisse von der LB1 vorhanden
 
 ### 03.4 - Versionverwaltung
 Erfahrung im Betrieb mit Versionverwaltung Document Management Systemen und Cloud. Mit GitHub noch wenige Erfahrungen gemacht. Grundsätzlich sollte es mir nicht schwer fallen mit GitHub zu arbeiten.
