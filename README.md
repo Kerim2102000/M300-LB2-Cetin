@@ -103,12 +103,16 @@ Alles Kann auf der Google Cloud Plattform über die Web-Konsole Überwacht werde
 
 ## 07 - Testfälle
 
+|   Test| Resultat  |
+|---|:-:|
+| Vom Browser auf 104.154.89.159:80 zugreifen  | Funktioniert. Das Guestbook (104.154.89.159:80 ) wird angezeigt  |
+| Vom Client auf den Webserver (192.168.10.101) zugreifen per SSH |  Funktioniert, da eine SSH Verbindung vom Client her zugelassen wurde in der Firewall |
+| Vom Client auf die Datenbank (192.168.10.100) zugreifen per SSH |  Funktioniert, da eine SSH Verbindung vom Client her zugelassen wurde in der Firewall |
+| Mit dem Admin User sich auf die Datenbank anmelden | Die Datenbank aktzeptiert den zugang des Webserver mit dem Admin User|
        
-
-
 ## 08 - Wissenszuwachs
 
-Ich habe viele neue Sachen gelernt im Bezug von Kubernetes mit der Google Cloud Plattform und dessen Aufbau und das zusammen spiel eines Docker Images.   
+Ich habe viele neue Sachen gelernt im Bezug von Docker und Kubernetes mit der Google Cloud Plattform und dessen Aufbau und das zusammen spiel eines Docker Images.   
 
 ## 09 - Reflektion
 Die LB02 verlief im Grunde genommen ganzen gut. Das Realisieren von Kubernets Container in der Google Cloud war sehr interessant und lehrreich. Am Anfang musste ich mich mit Docker ein wenig zurecht finde genauer gesagt das Erstellen eines Images. Doch dies konnte ich mit Hilfe von Foren ausgleichen. Mit dieser LB2 habe ich Docker und Kubernetes viel besser kennen gelernt. Die enorme Vielfalt von Google Cloud hat mich sehr überrascht und fasziniert dort mit Kubernetes Container zu erstellen. Zeitlich bin ich gut mit der LB2 durchgekommen und bin mit meiner Arbeit zufrieden. 
