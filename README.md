@@ -60,7 +60,7 @@ Das es sich um Memory-Datenbanken handelt habe ich diesen 7.5 GB Memory in der G
 In der Kubernetes-Umgebung kann man logs mit dem folgendem Befehl abrufen: kubectl logs <pod-name>
   
 ### 05.2 - Monitoring
-Alles Kann auf der Google Cloud Plattform über die Web-Konsole Überwacht werden wie zum Beispiel CPU, Speicher oder Laufwerk.
+Alles Kann auf der Google Cloud Plattform über die Web-Konsole Überwacht werden wie zum Beispiel CPU, Speicher oder Laufwerk auslastung.
 
 ### 05.3 - Containersicherheit
 - PHP Guestbook Frontend ist unter dem Port 80 anzufinden dies konnte mit dem Loadbalance so eingerichtet werden
