@@ -49,7 +49,7 @@ Es handelt sich um eine mehrschichtige Webanwendung die mit Hilfe von der Google
 
 
 ### 04.4 - Image
-Für dieses Projekt habe ich die Redis Image vom Dockerhub verwendet. Kubernetes bezieht diese dann automatisch von dort.
+Für dieses Projekt habe ich die Offiziellen Redis Image vom Dockerhub verwendet. Kubernetes bezieht diese dann automatisch von dort.
 
 ### 04.5 - Memory
 Das es sich um Memory-Datenbanken handelt habe ich diesen 7.5 GB Memory in der Google Cloud zurverfügung gestellt. 
@@ -70,7 +70,13 @@ Alles Kann auf der Google Cloud Plattform über die Web-Konsole Überwacht werde
 
 ## 07 - Testfälle
 
+       
+
+
 ## 08 - Wissenszuwachs
 
+Ich habe viele neue Sachen gelernt 
+
 ## 09 - Reflektion
+Die LB02 verlief im Grunden genommen ganzen gut. Das Realisieren von Kubernets Container in der Google Cloud war sehr interessant und lehrreich. Am Anfang musste ich mich mit Docker einwenig zurecht finde genauer gesagt das erstellen von einem Image. Mit dieser LB habe ich Vagrant viel besser kennen gelernt. Zeitlich bin ich gut mit der LB1 durchgekommen und bin mit meiner Arbeit zufrieden.
 
