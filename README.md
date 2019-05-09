@@ -126,9 +126,9 @@ Alles Kann auf der Google Cloud Plattform über die Web-Konsole Überwacht werde
 |   Test| Resultat  |
 |---|:-:|
 | Vom Client auf http://104.154.89.159:80 zugreifen  | Funktioniert. Das Guestbook (104.154.89.159:80 ) wird angezeigt  |
-| Vom Client auf den Webserver (192.168.10.101) zugreifen per SSH |  Funktioniert, da eine SSH Verbindung vom Client her zugelassen wurde in der Firewall |
+| Vom Client auf den Redis Master zugreifen |  Funktioniert nicht, da nur der Admin in der Google Cloud auf die Interne IP zugreifen kann|
 | Vom Client auf die Datenbank (192.168.10.100) zugreifen per SSH |  Funktioniert, da eine SSH Verbindung vom Client her zugelassen wurde in der Firewall |
-| Mit dem Admin User sich auf die Datenbank anmelden | Die Datenbank aktzeptiert den zugang des Webserver mit dem Admin User|
+| In das Guestbook einen Eintrag erfassen | Die Datenbank aktzeptiert den zugang des Webserver mit dem Admin User|
 
 ## 08 - Wissenszuwachs
 
