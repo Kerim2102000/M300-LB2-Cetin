@@ -84,7 +84,7 @@ Noch keine Vorkenntnisse vorhanden.
 ## 05 - Umsetzung
 
 ### 05.1 - Projektbezeichnung
-Es handelt sich um eine mehrschichtige Webanwendung die mit Hilfe von der Google Cloud erstellt wurde. Die Applikation ist ein Gästebuchrd, in dem Besucher Text in ein Log eingeben und die letzten geloggten Einträge sehen können. Diese Einträge werden in einer Redis Datenbank erfasst diese hat den Vorteil weil sie eine Memory-Datenbank verwedendet sie den Arbeitsspeicher und erlaubt so höhere Zugriffsgeschwindigkeiten.
+Es handelt sich bei meinem Projekt um eine Webanwendung, die mit Hilfe von der Google Cloud erstellt wurde. Die Applikation ist ein Gästebuch, in dem Besucher Text in ein Log eingeben und die letzten geloggten Einträge sehen können. Diese Einträge werden in einer Redis Datenbank erfasst. Die Redis Datenbank gehört zu den Memory-Datenbanken und verwendet daher den Arbeitsspeicher, um die Daten abzuspeichern. Dies erlaubt eine höhere Zugriffsgeschwindigkeite auf das Gästebuch.  
 
 ### 05.2 - Netzwerkplan
 
