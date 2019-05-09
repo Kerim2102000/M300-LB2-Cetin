@@ -3,6 +3,8 @@
 
 [TOC]
 
+
+
 ## 01 - Umgebung
 
 - Google Cloud Plattform
@@ -45,7 +47,7 @@ Keine Vorkenntnisse mit Docker vorhanden, noch nie damit gearbeitet.
 ### 03.9 - Micros Service
 Noch keine Vorkenntnisse vorhanden.
 
-### 03.1 - Docker Befehle
+## 04 - Docker Befehle
 
 | Befehl       | Beschreibung                                       |
 | ------------ | -------------------------------------------------- |
@@ -57,12 +59,12 @@ Noch keine Vorkenntnisse vorhanden.
 | docker push  | Ladet ein Image in die Registry hoch               |
 | docker exec  | Führ einen Befehl in einem laufenden Container aus |
 
-## 04 - Umsetzung
+## 05 - Umsetzung
 
-### 04.1 - Projektbezeichnung
+### 05.1 - Projektbezeichnung
 Es handelt sich um eine mehrschichtige Webanwendung die mit Hilfe von der Google Cloud erstellt wurde. Die Applikation ist ein Gästebuchrd, in dem Besucher Text in ein Log eingeben und die letzten geloggten Einträge sehen können. Diese Einträge werden in einer Redis Datenbank erfasst diese hat den Vorteil weil sie eine Memory-Datenbank verwedendet sie den Arbeitsspeicher und erlaubt so höhere Zugriffsgeschwindigkeiten.
 
-### 04.3 - Netzwerkplan
+### 05.2 - Netzwerkplan
 
     +---------------------------------------------------------------+
     ! Container: Guestbook Frontend PHP - 104.154.89.159:80         !
@@ -77,21 +79,21 @@ Es handelt sich um eine mehrschichtige Webanwendung die mit Hilfe von der Google
     +---------------------------------------------------------------+
 
 
-### 04.4 - Image
+### 05.3 - Image
 Für dieses Projekt habe ich die Offiziellen Redis Image vom Dockerhub verwendet. Kubernetes bezieht diese dann automatisch von dort.
 
-### 04.5 - Memory
+### 05.4 - Memory
 Das es sich um Memory-Datenbanken handelt habe ich diesen 7.5 GB Memory in der Google Cloud zurverfügung gestellt. 
 
-## 05 - Sicherheitsaspekte
+## 06 - Sicherheitsaspekte
 
-### 05.1 - Logs
+### 06.1 - Logs
 In der Kubernetes-Umgebung kann man logs mit dem folgendem Befehl abrufen: kubectl logs <pod-name>
 
-### 05.2 - Monitoring
+### 06.2 - Monitoring
 Alles Kann auf der Google Cloud Plattform über die Web-Konsole Überwacht werden wie zum Beispiel CPU, Speicher oder Laufwerk auslastung.
 
-### 05.3 - Containersicherheit
+### 06.3 - Containersicherheit
 - PHP Guestbook Frontend ist unter dem Port 80 anzufinden dies konnte mit dem Loadbalance so eingerichtet werden
 - Redis Master und der Redis Slave sind nur Intern erreichbar um änderungen an den Datensätze von Angriffen zu verhindern
 - Container laufen in einer dedizierten virtuellen Maschine in der Google Cloud
