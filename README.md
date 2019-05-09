@@ -127,12 +127,12 @@ Alles Kann auf der Google Cloud Plattform über die Web-Konsole Überwacht werde
 |---|:-:|
 | Vom Client auf http://104.154.89.159:80 zugreifen  | Funktioniert. Das Guestbook (104.154.89.159:80 ) wird angezeigt  |
 | Vom Client auf den Redis Master zugreifen |  Funktioniert nicht, da nur der Admin in der Google Cloud auf die Interne IP zugreifen kann|
-| Vom Client auf die Datenbank (192.168.10.100) zugreifen per SSH |  Funktioniert, da eine SSH Verbindung vom Client her zugelassen wurde in der Firewall |
-| In das Guestbook einen Eintrag erfassen | Die Datenbank aktzeptiert den zugang des Webserver mit dem Admin User|
+| Der Redis Slave unterstützt bei bei hohem Datentraffic den Redis Master |  Funktioniert,der Redis Slave übernimmt bei hohem Trafic das erfassen der Daten in die Redis Datenbank   |
+| In das Guestbook einen Eintrag erfassen | Funktioniert, Einträge können erfasst werden und werden im Guestbook angezeigt|
 
 ## 08 - Wissenszuwachs
 
-Ich habe viele neue Sachen gelernt im Bezug von Docker und Kubernetes mit der Google Cloud Plattform und dessen Aufbau und das zusammen spiel eines Docker Images.   
+Ich habe viele neue Sachen gelernt im Bezug von Docker und Kubernetes mit der Google Cloud Plattform und dessen Aufbau und das zusammen spiel mit einem Docker Images gelernt.   
 
 ## 09 - Reflektion
 Die LB02 verlief im Grunde genommen ganzen gut. Das Realisieren von Kubernets Container in der Google Cloud war sehr interessant und lehrreich. Am Anfang musste ich mich mit Docker ein wenig zurecht finde genauer gesagt das Erstellen eines Images. Doch dies konnte ich mit Hilfe von Foren ausgleichen. Mit dieser LB2 habe ich Docker und Kubernetes viel besser kennen gelernt. Die enorme Vielfalt von Google Cloud hat mich sehr überrascht und fasziniert dort mit Kubernetes Container zu erstellen. Zeitlich bin ich gut mit der LB2 durchgekommen und bin mit meiner Arbeit zufrieden. 
