@@ -1,14 +1,7 @@
 
-# **Modul 300 LB2 Dokumentation** 
+## **Modul 300 LB2 Dokumentation** 
 
-# Inhaltsverzeichnis
-  - [01 - Umgebung](#01---umgebung)
-  - [02 - Verwendetet Tools](#02---verwendetet-tools)
-  - [03 - Wissenstand](#03---wissenstand)
-  - [04 - Sicherheitsaspekte](#04---Sicherheitsaspekte)
-  - [05 - Testfälle](#05---Testfälle)
-  - [06 - Wissenszuwachs](#06---Wissenszuwachs)
-  - [07 - Reflektion](#07---Reflektion)
+[TOC]
 
 ## 01 - Umgebung
 
@@ -26,7 +19,6 @@
 
 ## 03 - Wissenstand
 
-### 03.1 - Linux
 Linux Grundkenntnisse sind vorhanden jedoch im Betrieb eher gelegentlich zu tun. Zu hause ein paar Test VMs gemacht um in das Thema besser reinzukommen und Erfahrungen zu sammeln.
 
 ### 03.2 - Virtualisierung
@@ -95,7 +87,7 @@ Das es sich um Memory-Datenbanken handelt habe ich diesen 7.5 GB Memory in der G
 
 ### 05.1 - Logs
 In der Kubernetes-Umgebung kann man logs mit dem folgendem Befehl abrufen: kubectl logs <pod-name>
-  
+
 ### 05.2 - Monitoring
 Alles Kann auf der Google Cloud Plattform über die Web-Konsole Überwacht werden wie zum Beispiel CPU, Speicher oder Laufwerk auslastung.
 
@@ -113,7 +105,7 @@ Alles Kann auf der Google Cloud Plattform über die Web-Konsole Überwacht werde
 | Vom Client auf den Webserver (192.168.10.101) zugreifen per SSH |  Funktioniert, da eine SSH Verbindung vom Client her zugelassen wurde in der Firewall |
 | Vom Client auf die Datenbank (192.168.10.100) zugreifen per SSH |  Funktioniert, da eine SSH Verbindung vom Client her zugelassen wurde in der Firewall |
 | Mit dem Admin User sich auf die Datenbank anmelden | Die Datenbank aktzeptiert den zugang des Webserver mit dem Admin User|
-       
+
 ## 08 - Wissenszuwachs
 
 Ich habe viele neue Sachen gelernt im Bezug von Docker und Kubernetes mit der Google Cloud Plattform und dessen Aufbau und das zusammen spiel eines Docker Images.   
